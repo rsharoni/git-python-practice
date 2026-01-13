@@ -1,7 +1,13 @@
-def greet(name):
-    return f"Hello, {name}!"
+import datetime
+
+print(datetime.datetime.now().strftime("%H:%M:%S"))
+
+
+def greet(name, time):
+    return f"Hello, {name}! the time now is: {time}"
 
 
 if __name__ == "__main__":
     user = "World"
-    print(greet(user))
+    time = datetime.datetime.now().strftime("%H:%M:%S")
+    print(greet(user, time))
