@@ -1,10 +1,8 @@
 import datetime
 
-print(datetime.datetime.now().strftime("%H:%M:%S"))
-
 
 def greet(name, time):
-    return f"Hello, {name}! the time now is: {time}"
+    return f"Hello, {name}! the time now is: {time}, Welcome!"
 
 
 if __name__ == "__main__":
