@@ -1,5 +1,7 @@
 import datetime
 
+print('start of app')
+
 
 def greet(name, time):
     return f"Hello, {name}! the time now is: {time}, Welcome!"
