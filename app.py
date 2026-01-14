@@ -13,3 +13,4 @@ if __name__ == "__main__":
     print(greet(user, time))
     print("end of app")
     print("commit 1")
+    print("commit 2")
